@@ -59,7 +59,7 @@ stored_data = load_data()
 # Navigation Bar
 
 st.title("Secure Data Encryption System")
-menu = ["Home", "Register","Login"," Store Data","Retrive Data"]
+menu = ["Home", "Register","Login","Store Data","Retrieve Data"]
 choice = st.sidebar.selectbox("Navigation", menu)
 
 if choice == "Home":
