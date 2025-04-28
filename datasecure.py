@@ -14,7 +14,7 @@ LOCKOUT_DURATION =  60
 
 #  ===========   Login Details  ============
 
-if "autenticated_user" not in st.session_state:
+if "authenticated_user" not in st.session_state:
     st.session_state.authenticated_user = None
 
 
